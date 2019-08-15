@@ -1,0 +1,23 @@
+.Navbar{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  height: 20px;
+  margin-top: 10px;
+}
+.Navbar .logo {
+  width: 30px;
+}
+
+.Navbar img{
+  width:100%;
+}
+.Navbar ul{
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+}
+.Navbar li {
+  list-style:none;
+  margin: 0 20px;
+  font-size:0.6em;
+}

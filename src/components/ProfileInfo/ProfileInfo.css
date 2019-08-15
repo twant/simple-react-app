@@ -1,0 +1,6 @@
+.ProfileInfo{
+  display:grid;
+  grid-template-columns:1fr 2fr;
+  margin: 50px 15%;
+
+}
