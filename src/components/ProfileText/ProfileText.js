@@ -1,7 +1,7 @@
 import React from "react";
 import './ProfileText.css'
 
-function ProfileText( props ) {
+const ProfileText = ( props ) => {
   return (
     <div className="ProfileText">
       <p>{props.username}</p>
